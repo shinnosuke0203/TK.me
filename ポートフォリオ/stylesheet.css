@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    background-image: url(oliver-pecker-HONJP8DyiSM-unsplash.jpg);
+    background-size: cover;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto  0 auto;
+    padding: 0 4%;
+}
+
+.tittle {
+    color: rgb(255, 255, 255);
+    height: 33vh;
+}
+
+.tittle h1 {
+    letter-spacing: 0.4rem;
+    font-size: 3rem;
+    margin:0 0 0.2rem 2rem;
+    font-family: serif;
+}
+
+.tittle p {
+    letter-spacing: 0.1rem;
+    margin-left: 2rem;
+    font-family: serif;
+}
+
+.work-contents {
+    padding-bottom: 10vh;
+}
+
+.work-contents img {
+    width: 30%;
+    height: 50vh;
+    object-fit: cover;
+    border: solid 1px white;
+    margin: 1% 1%;
+}
+
+.work-contents img:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 700px) {
+    .work-contents {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work-contents img {
+        width: 100%;
+    }
+    
+}
